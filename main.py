@@ -2,7 +2,7 @@ import json
 import os
 import threading
 
-try:
+try:https://www.tiktok.com/@user010209.89/video/7280609920582552864?is_from_webapp=1&sender_device=pc&web_id=7281367715796436513
     from colorama import Fore
     import requests
 except ModuleNotFoundError:
@@ -14,7 +14,7 @@ class Main:
         self.tiktok_video_url = tiktok_video_url
         self.views_max = views_max
         self.threads_max = threads_max
-        self.views_sent = 0
+        self.views_sent = 500000
         self.retries = 0
 
     def _botter(self, item_id: str) -> None:
